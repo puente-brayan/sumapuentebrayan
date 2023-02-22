@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="uft-8">
+    <title>sumas rhlm</title>
+ </head>
+ <body>
+    <H1>SUMAS REAL HASTA LA MUERTE</H1>
+    <form action="">
+        <input type="text" id="num1">
+        <input type="text" id="num2">
+        <input type="button" value="suma" onclick="alert( suma(10,50));">
+    </form>
+
+        <script>
+            var suma = function (num1, num2){
+                var num1 = parseFloat(document.getElementById("num1").value);
+                var num2 = parseFloat(document.getElementById("num2").value);
+
+                var resultado = num1 + num2;
+
+                return resultado;
+
+            }
+
+
+
+
+            
+        </script>
+ </body>
